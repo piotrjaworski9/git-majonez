@@ -1,0 +1,35 @@
+ 1422  cd git-majonez/
+ 1423  git init
+ 1424  touch main.cpp
+ 1425  code main.cpp
+ 1426  git status
+ 1427  git add main.cpp
+ 1428  git commit -m"Initial commit"
+ 1429  git status
+ 1430  git add main.cpp
+ 1431  git commit -m"Farewell changed"
+ 1432  git status
+ 1433  git remote add origin https://github.com/piotrjaworski9/git-majonez.git
+ 1434  git push -u origin master
+ 1435  git branch cs
+ 1436  git checkout branch
+ 1437  git checkout cs
+ 1438  git status
+ 1439  git log
+ 1440  git reset HEAD^
+ 1441  git log
+ 1442  git status
+ 1443  code main.cpp
+ 1444  git status
+ 1445  git add main.cpp
+ 1446  git commit -m"Greetings"
+ 1447  git push origin cs
+ 1448  git checkout master
+ 1449  git merge cs
+ 1450  git status
+ 1451  code main.cpp
+ 1452  git commit
+ 1453  git add .
+ 1454  git commit
+ 1455  history
+ 1456  history | tail -n 35 >> history.txt
