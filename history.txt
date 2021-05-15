@@ -1,3 +1,4 @@
+ 1421  mkdir git-majonez
  1422  cd git-majonez/
  1423  git init
  1424  touch main.cpp
